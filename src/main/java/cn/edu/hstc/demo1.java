@@ -15,7 +15,7 @@ public class demo1 {
         while (true) {
             time_start = System.currentTimeMillis();
             //cpu 忙碌时间50%
-            while ((System.currentTimeMillis() - time_start) < runtime) {
+            while ((System.currentTimeMillis() - time_start) <= runtime) {
             }
             try {
                 Thread.sleep(fulltime - runtime);//空闲时间50%
