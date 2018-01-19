@@ -47,7 +47,7 @@ public class demo4 {
         for (int i = 0; i <= n; i++) {
             temp[i] = temp[i] - 1;
         }
-        Arrays.sort(temp, new Comparator<Integer>() {//重写排序
+        Arrays.sort(temp,new Comparator<Integer>() {//重写排序
             public int compare(Integer o1, Integer o2) {
                 return o2 - o1;//保证排序是升序
             }
